@@ -16,7 +16,7 @@ const DisasterDetail = () => {
         <div className={`max-w-md w-full mx-auto ${isDarkMode ? 'bg-slate-500 text-white' : 'bg-white text-gray-700'}`}>
           <div className="p-6 rounded-lg shadow-lg">
             <h1 className="text-3xl font-bold text-center mb-4">{id}</h1>
-            <img src={`src/assets/img/foto-${id}.jpeg`} alt="Disaster" className="w-full h-48 object-cover mb-4 rounded-md shadow-md" />
+            <img src={`foto-${id}.jpeg`} alt="Disaster" className="w-full h-48 object-cover mb-4 rounded-md shadow-md" />
             <p className="text-lg">{description}</p>
           </div>
           <div className="justify-between">
