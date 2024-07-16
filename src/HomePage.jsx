@@ -63,7 +63,7 @@ const Bantuan = () => {
                         <div key={index} className={`${isDarkMode ? 'bg-slate-500 text-white' : 'bg-white text-gray-700'} shadow-md rounded-lg overflow-hidden`}>
                             <Link to='/detail'>
                                 <img
-                                    src={`foto-${id}.jpeg`}
+                                    src={imageUrls[index % imageUrls.length]}
                                     alt={category.id}
                                     className="w-full h-32 object-cover cursor-pointer"
                                     onClick={() => handleImageClick(category)}
